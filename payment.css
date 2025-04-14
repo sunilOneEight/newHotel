@@ -1,0 +1,165 @@
+#jk{
+    width:90%;
+    color: white;
+    margin-bottom:8px;
+    height:65px;
+    margin: auto;
+    position:static;
+    padding-bottom:50px;
+}
+#ho{
+    width:50%;
+    float: left;
+    background-color: rgb(18, 222, 154);
+    height:100%;
+}
+#co{
+    float: right;
+    width:50%;
+    background-color: black;
+    height: 100%;
+}
+#cop{
+    width:50%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    line-height: 65px;
+    font-size: large;
+}
+#ip{
+    width:50%;
+    float: right;
+    background-color: solid rgb(29, 29, 29);
+    height: 100%;
+    text-align: center;
+    line-height: 65px;
+    font-size: large;
+}
+#hom{
+    width:50%;
+    float: left;
+    background-color: solid rgb(43, 226, 192);
+    height: 100%;
+    text-align: center;
+    line-height: 65px;
+    font-size: large;
+}
+#menu{
+    width:50%;
+    float: right;
+    background-color:black;
+    height: 100%;
+    text-align: center;
+    line-height: 65px;
+    font-size: large;
+}
+#k:hover{
+    background-color:aliceblue;
+    color:black;
+}
+#menu:hover{
+    background-color:aliceblue;
+    color:black;
+}
+#k{
+    width:343px;
+    height:66px;
+    padding-top:4px;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#home{
+    width:343px;
+    height:66px;
+    padding-top:4px;
+    font-size: large;
+    background-color:black;
+    color: white;   
+    border:none; 
+}
+#menui{
+    width:90%;
+    height:900px;
+    color:white;
+    margin: auto;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.862)
+}
+#ol{
+    background-color:black;
+    margin-bottom: 15px;
+}
+#ji{
+    background-color:white;
+    color: black;
+}
+#home:hover{
+    background-color:aliceblue;
+    color:black;
+    cursor: pointer;
+}
+#money{
+    width:50%;
+    height: 100px;
+    margin: auto;
+}
+#textbox{
+    width:80%;
+    height:100px;
+    float: left;
+}
+#button1{
+    width:15%;
+    height:100px;
+    float: right;
+}
+#text{
+    width:80%;
+    height:50px;
+    float: right;
+    border:2px solid black;
+    display: flex;
+    text-align: center;
+}
+#res{
+    text-align:justify;
+    text-align: center;
+}
+#button01{
+    width: 15%;
+    height:100px;
+    float:left;
+    display: flex;
+}
+#b1{
+    width:50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    padding-left:10px;
+    transition: width 0.5s,height 0.5s,font-size 0.5s;
+    font-size: larger;
+}
+#b1:active{
+    width:60px;
+    height: 60px;
+    font-size: large;
+}
+#b2{
+    width:50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    padding-left:10px;
+    transition: width 0.5s,height 0.5s,font-size 0.5s;
+    font-size: larger;
+}
+#b2:active{
+    width:60px;
+    height: 60px;
+    font-size: large;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+   #quanti{
+        width:90%;
+        height: 650px;
+        margin:auto;
+        padding-top:70px;
+   }
+   #qua{
+    align-items: center;
+   }
+   #neworder{
+        background-color:orange;
+        color:black;
+        border-radius: 16px;
+        cursor: pointer;
+   }
+   #neworder:hover{
+        background-color: black;
+        color: white;
+   }
+   #qua{
+        padding-left:10px;
+        border-radius:16px;
+   }
+   #apply{
+        background-color:orange;
+        border-radius:16px;
+        color:black;
+        cursor: pointer;
+   }
+   #apply:hover{
+    background-color:black;
+    border-radius:16px;
+    color:white;
+   }
+#baj{
+    width:120px;
+    height: 120px;
+    border-radius:20%;
+    box-shadow: 2px 3px rgb(87, 85, 85);
+}
+ </style>
+</head>
+<body>
+    <link rel="stylesheet" href="payment.css">
+    <div id="jk">
+        <div id="ho">
+            <div id="hom">
+                <button id="home"onclick="location.href='index.html'">HOME</button>
+            </div>
+           <div id="menu">
+            <button id="k"onclick="location.href='order.html'">MENU</button>
+           </div>
+        </div>
+        <div id="co">
+        <div id="cop"class="op">
+            <button id="k"onclick="location.href='contact.html'">CONTACACT US</button>
+        </div>
+        <div id="ip"class="op">
+            <button id="k"onclick="location.href='login.html'">SIGN UP</button>
+        </div>
+        </div>
+    </div>
+    <div id="quanti">
+        <center>
+            <div>
+                <img src="puri.jpeg"id="baj">
+            </div>
+            <br>
+        <input type="number" id="qua"placeholder="quantity">
+        <button onclick="quatity()"id="apply">apply</button>
+        <h1>delivery charges=₹20</h1>
+        <h1 id="disc"></h1>
+        <h1 id="price"></h1><h1 id="res"></h1>
+        <button id="neworder"onclick="location.href='deal.html'">order</button>
+        </center>
+    </div>
+</body>
+</html>
+<script>
+    function quatity(){
+         var b=document.getElementById('qua').value;
+         if (b>=4)
+         {
+            document.getElementById("disc").innerHTML="discount applied";
+            res=parseInt(b)*35;
+            document.getElementById("res").innerHTML=res;
+            document.getElementById("price").innerHTML="total price";
+         }
+         else{
+            res=parseInt(b)*40;
+         document.getElementById("res").innerHTML=res;
+         document.getElementById("price").innerHTML="total price";
+         }
+    }
+</script>
